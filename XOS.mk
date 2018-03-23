@@ -1,6 +1,7 @@
 #
 # Copyright (C) 2017 The LineageOS Open Source Project
 # Copyright (C) 2018 AOSIP Project
+# Copyright (C) 2018 The halogenOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,10 +23,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dumpling device
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
-# Inherit some common AOSIP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+# Inherit some common XOS stuff.
+$(call inherit-product, vendor/xos/config/common.mk)
 
-PRODUCT_NAME := aosip_dumpling
+PRODUCT_NAME := XOS_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
