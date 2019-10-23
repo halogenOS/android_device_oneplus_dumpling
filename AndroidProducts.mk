@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2017-2019 The LineageOS Open Source Project
+# Copyright (C) 2019 The halogenOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dumpling.mk
+    $(LOCAL_DIR)/aosp_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_dumpling-user \
-    lineage_dumpling-userdebug \
-    lineage_dumpling-eng
+    aosp_dumpling-user \
+    aosp_dumpling-userdebug \
+    aosp_dumpling-eng
